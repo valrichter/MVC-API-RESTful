@@ -2,9 +2,11 @@ package com.book_crud.MVC_API_RESTful.service;
 
 import com.book_crud.MVC_API_RESTful.model.Book;
 import com.book_crud.MVC_API_RESTful.repository.BookRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class BookServiceImp implements BookService {
 
     private final BookRepository bookRepository;
